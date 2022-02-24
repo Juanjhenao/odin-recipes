@@ -8,7 +8,13 @@ body{
 header{
     background-color:  #fd6e5e;
     color: white;
-    padding: 2rem 2rem;
+    padding: 1.3rem 1rem;
+}
+header div{
+    height: 150px; width:180px;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
 .container{
     width: 400px;
@@ -27,7 +33,7 @@ section article{
     cursor: pointer;
 }
 section a{
-    margin: 1rem;
+    margin: auto;
 }
 article a{
     text-decoration: none;
