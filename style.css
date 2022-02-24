@@ -1,0 +1,85 @@
+html{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #e6e6e6;
+}
+header{
+    background-color:  #fd6e5e;
+    color: white;
+    padding: 2rem 2rem;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+section article{
+    transition: box-shadow 0.2s ease;
+    background-color: #ffff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+section a{
+    margin: 1rem;
+}
+article a{
+    text-decoration: none;
+}
+.name{
+    transition:color 0.3s ease;
+    color: black;
+}
+.name:hover{
+    color: cornflowerblue;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 4);
+}
+.receta{
+    text-align: center;
+    font-size: 1.8rem;
+}
+    
+.ima_1 { 
+    width: 350px; height: 350px; object-fit: contain; 
+    display:block;
+    margin:auto;
+}
+
+.ima_2 { 
+    width: 350px; height: 350px; object-fit: contain;
+    display:block;
+    margin:auto;
+}
+
+.ima_3 { 
+    width: 350px; height: 350px; object-fit: contain;
+    display:block;
+    margin:auto;
+}
+footer {
+    background-color: #ff1900bb;
+    padding: 2rem;
+    color: white;
+}
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    transition:color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
